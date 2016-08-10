@@ -4,11 +4,11 @@ Mid bash pipeline you can add and remove items being passed through to future pi
 
 # Installation
 
+```
 brew tap sebglazebrook/confirm
 brew install confirm
+```
 
 # Usage
 
-```
-ls  | confirm | xargs rm -rf
-```
+See implementation repo: https://github.com/sebglazebrook/confirm
